@@ -32,7 +32,7 @@ console.log(obj2.arr, obj1.arr); // [1,2,3,4], [1,2,3]
 obj1.c.item1 = 'titleChanged';
 obj1.c.nestedObj.x = 90;
 console.log(obj1.c.item1, obj2.c.item1); // "titleChanged", "title"
-console.log(obj1.c.nestedObj.x, obj1.c.nestedObj.y, obj1.c.nestedObj.x, obj1.c.nestedObj.y); // 90, 60, 50, 60
+console.log(obj1.c.nestedObj.x, obj1.c.nestedObj.y, obj2.c.nestedObj.x, obj2.c.nestedObj.y); // 90, 60, 50, 60
 // (0.3h)
 
 
